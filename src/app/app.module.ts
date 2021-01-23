@@ -12,14 +12,16 @@ import { PostCreateComponent} from './posts/post-create/post-create.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations' ;
 import { HeaderComponent } from "./header/header.component" ;
 import { PostListComponent } from './post-list/post-list.component' ;
-import { MatExpansionModule } from '@angular/material/expansion' ;
+import { MatExpansionModule } from '@angular/material/expansion';
+import { FooterComponent } from './footer/footer.component' ;
 
 @NgModule({
   declarations: [
     AppComponent,
     PostCreateComponent,
     PostListComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
